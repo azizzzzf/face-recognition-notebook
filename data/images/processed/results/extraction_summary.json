@@ -1,0 +1,84 @@
+{
+  "timestamp": 1753433596.970449,
+  "total_employees": 5,
+  "total_embeddings": 771,
+  "extraction_stats": {
+    "total_processed": 273,
+    "successful_extractions": 771,
+    "failed_extractions": 11,
+    "cache_hits": 0,
+    "cache_misses": 0,
+    "total_time": 6584.541006803513
+  },
+  "client_stats": {
+    "total_requests": 797,
+    "successful_requests": 771,
+    "failed_requests": 26,
+    "total_inference_time": 6574848.402261734,
+    "server_errors": 26,
+    "network_errors": 0,
+    "timeout_errors": 0,
+    "success_rate": 0.9673776662484316,
+    "average_inference_time": 8249.496113251862
+  },
+  "employee_details": {
+    "scarlett_johansson": {
+      "total_embeddings": 158,
+      "original_embeddings": 53,
+      "augmented_embeddings": 105,
+      "angles": [
+        "30_degree",
+        "frontal",
+        "45_degree"
+      ],
+      "avg_confidence": 0.5921865148545475,
+      "avg_inference_time": 6910.433962264151
+    },
+    "chris_hemsworth": {
+      "total_embeddings": 153,
+      "original_embeddings": 51,
+      "augmented_embeddings": 102,
+      "angles": [
+        "30_degree",
+        "frontal",
+        "45_degree"
+      ],
+      "avg_confidence": 0.6451935866446088,
+      "avg_inference_time": 6796.196078431372
+    },
+    "robert_downey": {
+      "total_embeddings": 138,
+      "original_embeddings": 47,
+      "augmented_embeddings": 91,
+      "angles": [
+        "frontal",
+        "45_degree"
+      ],
+      "avg_confidence": 0.6406199536365442,
+      "avg_inference_time": 7117.425531914893
+    },
+    "chris_evans": {
+      "total_embeddings": 135,
+      "original_embeddings": 47,
+      "augmented_embeddings": 88,
+      "angles": [
+        "frontal",
+        "45_degree"
+      ],
+      "avg_confidence": 0.5760588633800674,
+      "avg_inference_time": 7619.04255319149
+    },
+    "mark_ruffalo": {
+      "total_embeddings": 187,
+      "original_embeddings": 64,
+      "augmented_embeddings": 123,
+      "angles": [
+        "30_degree",
+        "frontal",
+        "45_degree"
+      ],
+      "avg_confidence": 0.6826877860302711,
+      "avg_inference_time": 8676.265625
+    }
+  }
+}

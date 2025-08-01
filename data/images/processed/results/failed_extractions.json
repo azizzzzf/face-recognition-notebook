@@ -1,0 +1,61 @@
+{
+  "timestamp": 1753433596.9851794,
+  "total_failed": 11,
+  "failures": [
+    {
+      "employee": "scarlett_johansson",
+      "image": "scarlett_johansson7.png",
+      "error": "No face detected with any strategy"
+    },
+    {
+      "employee": "chris_hemsworth",
+      "image": "chris_hemsworth8.png",
+      "error": "No face detected with any strategy"
+    },
+    {
+      "employee": "robert_downey",
+      "image": "robert_downey_jr40.png",
+      "error": "No face detected with any strategy"
+    },
+    {
+      "employee": "robert_downey",
+      "image": "robert_downey_jr30.png",
+      "error": "No face detected with any strategy"
+    },
+    {
+      "employee": "robert_downey",
+      "image": "robert_downey_jr32.png",
+      "error": "No face detected with any strategy"
+    },
+    {
+      "employee": "robert_downey",
+      "image": "robert_downey_jr7.png",
+      "error": "No face detected with any strategy"
+    },
+    {
+      "employee": "chris_evans",
+      "image": "chris_evans30.png",
+      "error": "No face detected with any strategy"
+    },
+    {
+      "employee": "chris_evans",
+      "image": "chris_evans50.png",
+      "error": "No face detected with any strategy"
+    },
+    {
+      "employee": "chris_evans",
+      "image": "chris_evans34.png",
+      "error": "No face detected with any strategy"
+    },
+    {
+      "employee": "mark_ruffalo",
+      "image": "mark_ruffalo20.png",
+      "error": "No face detected with any strategy"
+    },
+    {
+      "employee": "mark_ruffalo",
+      "image": "mark_ruffalo13.png",
+      "error": "No face detected with any strategy"
+    }
+  ]
+}

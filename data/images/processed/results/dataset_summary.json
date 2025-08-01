@@ -1,0 +1,47 @@
+{
+  "total_employees": 5,
+  "total_images": 273,
+  "employees": {
+    "scarlett_johansson": {
+      "image_count": 54,
+      "angles": [
+        "30_degree",
+        "frontal",
+        "45_degree"
+      ]
+    },
+    "chris_hemsworth": {
+      "image_count": 52,
+      "angles": [
+        "30_degree",
+        "frontal",
+        "45_degree"
+      ]
+    },
+    "robert_downey": {
+      "image_count": 51,
+      "angles": [
+        "30_degree",
+        "frontal",
+        "45_degree"
+      ]
+    },
+    "chris_evans": {
+      "image_count": 50,
+      "angles": [
+        "30_degree",
+        "frontal",
+        "45_degree"
+      ]
+    },
+    "mark_ruffalo": {
+      "image_count": 66,
+      "angles": [
+        "30_degree",
+        "frontal",
+        "45_degree"
+      ]
+    }
+  },
+  "timestamp": 1754066211.5189228
+}

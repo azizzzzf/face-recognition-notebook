@@ -1,0 +1,68 @@
+{
+  "timestamp": 1754066211.970921,
+  "train_ratio": 0.8,
+  "split_details": {
+    "scarlett_johansson": {
+      "total_samples": 158,
+      "train_samples": 126,
+      "test_samples": 32,
+      "train_ratio_actual": 0.7974683544303798
+    },
+    "chris_hemsworth": {
+      "total_samples": 153,
+      "train_samples": 122,
+      "test_samples": 31,
+      "train_ratio_actual": 0.7973856209150327
+    },
+    "robert_downey": {
+      "total_samples": 138,
+      "train_samples": 110,
+      "test_samples": 28,
+      "train_ratio_actual": 0.7971014492753623
+    },
+    "chris_evans": {
+      "total_samples": 135,
+      "train_samples": 108,
+      "test_samples": 27,
+      "train_ratio_actual": 0.8
+    },
+    "mark_ruffalo": {
+      "total_samples": 187,
+      "train_samples": 149,
+      "test_samples": 38,
+      "train_ratio_actual": 0.7967914438502673
+    }
+  },
+  "label_mappings": {
+    "label_to_idx": {
+      "scarlett_johansson": 0,
+      "chris_hemsworth": 1,
+      "robert_downey": 2,
+      "chris_evans": 3,
+      "mark_ruffalo": 4
+    },
+    "idx_to_label": {
+      "0": "scarlett_johansson",
+      "1": "chris_hemsworth",
+      "2": "robert_downey",
+      "3": "chris_evans",
+      "4": "mark_ruffalo"
+    }
+  },
+  "shapes": {
+    "X_train": [
+      615,
+      128
+    ],
+    "y_train": [
+      615
+    ],
+    "X_test": [
+      156,
+      128
+    ],
+    "y_test": [
+      156
+    ]
+  }
+}

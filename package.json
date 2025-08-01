@@ -1,0 +1,26 @@
+{
+  "name": "enhanced-faceapi-server",
+  "version": "2.0.0",
+  "description": "Production-ready Face-api.js server for face recognition",
+  "main": "faceapi_server.js",
+  "scripts": {
+    "start": "node faceapi_server.js",
+    "dev": "nodemon faceapi_server.js",
+    "test": "curl http://localhost:5000/health"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "face-api.js": "^0.22.2",
+    "canvas": "^2.11.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "keywords": [
+    "face-recognition",
+    "face-api.js",
+    "computer-vision"
+  ],
+  "author": "Face Recognition Research",
+  "license": "MIT"
+}

@@ -1,0 +1,104 @@
+{
+  "cosine": {
+    "method_name": "cosine",
+    "accuracy": 0.967948717948718,
+    "precision": 0.9696200455289236,
+    "recall": 0.967948717948718,
+    "f1_score": 0.967872160106708,
+    "far": 0.008012820512820512,
+    "frr": 0.03205128205128205,
+    "eer": 0.02003205128205128,
+    "rejection_rate": 0.0,
+    "valid_prediction_rate": 1.0,
+    "confidence_stats": {
+      "mean": 0.983506168899138,
+      "std": 0.012631187519085027,
+      "min": 0.9426443452884687,
+      "max": 0.9994475224235676,
+      "median": 0.9872786774985141
+    },
+    "confusion_matrix": [
+      [
+        32,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        31,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        28,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        1,
+        25,
+        0
+      ],
+      [
+        0,
+        2,
+        0,
+        1,
+        35
+      ]
+    ],
+    "classification_report": {
+      "scarlett_johansson": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 32.0
+      },
+      "chris_hemsworth": {
+        "precision": 0.9117647058823529,
+        "recall": 1.0,
+        "f1-score": 0.9538461538461539,
+        "support": 31.0
+      },
+      "robert_downey": {
+        "precision": 0.9655172413793104,
+        "recall": 1.0,
+        "f1-score": 0.9824561403508771,
+        "support": 28.0
+      },
+      "chris_evans": {
+        "precision": 0.9615384615384616,
+        "recall": 0.9259259259259259,
+        "f1-score": 0.9433962264150944,
+        "support": 27.0
+      },
+      "mark_ruffalo": {
+        "precision": 1.0,
+        "recall": 0.9210526315789473,
+        "f1-score": 0.958904109589041,
+        "support": 38.0
+      },
+      "accuracy": 0.967948717948718,
+      "macro avg": {
+        "precision": 0.9677640817600249,
+        "recall": 0.9693957115009747,
+        "f1-score": 0.9677205260402333,
+        "support": 156.0
+      },
+      "weighted avg": {
+        "precision": 0.9696200455289236,
+        "recall": 0.967948717948718,
+        "f1-score": 0.967872160106708,
+        "support": 156.0
+      }
+    },
+    "total_samples": 156,
+    "valid_samples": 156,
+    "rejected_samples": 
