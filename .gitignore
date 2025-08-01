@@ -1,0 +1,58 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.env
+*.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
+node_modules/
+
+# Logs
+*.log
+
+# Environment variables
+.env
+.env.*
+
+# Build
+build/
+dist/
+*.egg-info/
+
+# Node.js
+node_modules/
+
+# Images and data
+*.jpg
+*.jpeg
+*.png
+*.bmp
+*.gif
+*.csv
+*.tsv
+
+# Facial recognition models
+models/
+*.h5
+*.pb
+*.pt
+*.ckpt
+
+# Others
+*.sqlite3
+*.db
+*.sqlite
