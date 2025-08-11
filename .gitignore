@@ -55,4 +55,10 @@ models/
 # Others
 *.sqlite3
 *.db
+
+# Dataset: allow tracking files under data/ (overrides global image/data ignores)
+!data/**
+
+# But ignore Windows Zone.Identifier ADS artifacts copied from Windows
+data/**/*:Zone.Identifier
 *.sqlite
