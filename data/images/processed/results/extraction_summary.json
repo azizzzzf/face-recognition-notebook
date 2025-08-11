@@ -1,84 +1,393 @@
 {
-  "timestamp": 1753433596.970449,
-  "total_employees": 5,
-  "total_embeddings": 771,
+  "timestamp": 1754375679.615911,
+  "total_employees": 31,
+  "total_embeddings": 7474,
   "extraction_stats": {
-    "total_processed": 273,
-    "successful_extractions": 771,
-    "failed_extractions": 11,
+    "total_processed": 2501,
+    "successful_extractions": 7474,
+    "failed_extractions": 6,
     "cache_hits": 0,
     "cache_misses": 0,
-    "total_time": 6584.541006803513
+    "total_time": 42452.91261315346
   },
   "client_stats": {
-    "total_requests": 797,
-    "successful_requests": 771,
-    "failed_requests": 26,
-    "total_inference_time": 6574848.402261734,
-    "server_errors": 26,
+    "total_requests": 7491,
+    "successful_requests": 7474,
+    "failed_requests": 17,
+    "total_inference_time": 42296083.90545845,
+    "server_errors": 17,
     "network_errors": 0,
     "timeout_errors": 0,
-    "success_rate": 0.9673776662484316,
-    "average_inference_time": 8249.496113251862
+    "success_rate": 0.9977306100654119,
+    "average_inference_time": 5646.253358090836
   },
   "employee_details": {
-    "scarlett_johansson": {
-      "total_embeddings": 158,
-      "original_embeddings": 53,
-      "augmented_embeddings": 105,
+    "Henry Cavill": {
+      "total_embeddings": 312,
+      "original_embeddings": 104,
+      "augmented_embeddings": 208,
+      "angles": [
+        "45_degree",
+        "30_degree",
+        "frontal"
+      ],
+      "avg_confidence": 0.8025899117536738,
+      "avg_inference_time": 5522.461538461538
+    },
+    "Kashyap": {
+      "total_embeddings": 36,
+      "original_embeddings": 12,
+      "augmented_embeddings": 24,
+      "angles": [
+        "frontal"
+      ],
+      "avg_confidence": 0.7159240646988372,
+      "avg_inference_time": 8384.916666666666
+    },
+    "Virat_Kohli": {
+      "total_embeddings": 144,
+      "original_embeddings": 48,
+      "augmented_embeddings": 96,
+      "angles": [
+        "45_degree",
+        "30_degree",
+        "frontal"
+      ],
+      "avg_confidence": 0.7275031557888599,
+      "avg_inference_time": 5141.75
+    },
+    "Alexandra Daddario": {
+      "total_embeddings": 275,
+      "original_embeddings": 92,
+      "augmented_embeddings": 183,
+      "angles": [
+        "45_degree",
+        "30_degree",
+        "frontal"
+      ],
+      "avg_confidence": 0.8496277073307279,
+      "avg_inference_time": 5297.20652173913
+    },
+    "Akshay Kumar": {
+      "total_embeddings": 150,
+      "original_embeddings": 50,
+      "augmented_embeddings": 100,
+      "angles": [
+        "45_degree",
+        "30_degree",
+        "frontal"
+      ],
+      "avg_confidence": 0.7644061885987674,
+      "avg_inference_time": 5075.64
+    },
+    "Courtney Cox": {
+      "total_embeddings": 240,
+      "original_embeddings": 80,
+      "augmented_embeddings": 160,
+      "angles": [
+        "45_degree",
+        "30_degree",
+        "frontal"
+      ],
+      "avg_confidence": 0.815899151417204,
+      "avg_inference_time": 5171.375
+    },
+    "Claire Holt": {
+      "total_embeddings": 284,
+      "original_embeddings": 95,
+      "augmented_embeddings": 189,
+      "angles": [
+        "45_degree",
+        "30_degree",
+        "frontal"
+      ],
+      "avg_confidence": 0.7808797326226852,
+      "avg_inference_time": 5300.168421052632
+    },
+    "Ellen Degeneres": {
+      "total_embeddings": 215,
+      "original_embeddings": 72,
+      "augmented_embeddings": 143,
+      "angles": [
+        "45_degree",
+        "30_degree",
+        "frontal"
+      ],
+      "avg_confidence": 0.8258594524956325,
+      "avg_inference_time": 5321.597222222223
+    },
+    "Andy Samberg": {
+      "total_embeddings": 275,
+      "original_embeddings": 92,
+      "augmented_embeddings": 183,
+      "angles": [
+        "45_degree",
+        "30_degree",
+        "frontal"
+      ],
+      "avg_confidence": 0.7943923070084368,
+      "avg_inference_time": 5224.771739130435
+    },
+    "Dwayne Johnson": {
+      "total_embeddings": 183,
+      "original_embeddings": 61,
+      "augmented_embeddings": 122,
+      "angles": [
+        "45_degree",
+        "30_degree",
+        "frontal"
+      ],
+      "avg_confidence": 0.7607683992604729,
+      "avg_inference_time": 5656.950819672131
+    },
+    "Vijay Deverakonda": {
+      "total_embeddings": 345,
+      "original_embeddings": 115,
+      "augmented_embeddings": 230,
+      "angles": [
+        "45_degree",
+        "30_degree",
+        "frontal"
+      ],
+      "avg_confidence": 0.8150394758544585,
+      "avg_inference_time": 5619.817391304347
+    },
+    "Brad Pitt": {
+      "total_embeddings": 357,
+      "original_embeddings": 119,
+      "augmented_embeddings": 238,
+      "angles": [
+        "45_degree",
+        "30_degree",
+        "frontal"
+      ],
+      "avg_confidence": 0.7637782985768246,
+      "avg_inference_time": 5889.033613445378
+    },
+    "Billie Eilish": {
+      "total_embeddings": 284,
+      "original_embeddings": 95,
+      "augmented_embeddings": 189,
+      "angles": [
+        "45_degree",
+        "30_degree",
+        "frontal"
+      ],
+      "avg_confidence": 0.7517429331365035,
+      "avg_inference_time": 5309.726315789474
+    },
+    "Tom Cruise": {
+      "total_embeddings": 171,
+      "original_embeddings": 57,
+      "augmented_embeddings": 114,
       "angles": [
         "30_degree",
-        "frontal",
-        "45_degree"
+        "frontal"
       ],
-      "avg_confidence": 0.5921865148545475,
-      "avg_inference_time": 6910.433962264151
+      "avg_confidence": 0.7723695015717983,
+      "avg_inference_time": 5222.8421052631575
     },
-    "chris_hemsworth": {
-      "total_embeddings": 153,
-      "original_embeddings": 51,
-      "augmented_embeddings": 102,
+    "Hrithik Roshan": {
+      "total_embeddings": 300,
+      "original_embeddings": 100,
+      "augmented_embeddings": 200,
       "angles": [
+        "45_degree",
         "30_degree",
-        "frontal",
-        "45_degree"
+        "frontal"
       ],
-      "avg_confidence": 0.6451935866446088,
-      "avg_inference_time": 6796.196078431372
+      "avg_confidence": 0.7692006579110511,
+      "avg_inference_time": 5659.11
     },
-    "robert_downey": {
-      "total_embeddings": 138,
-      "original_embeddings": 47,
-      "augmented_embeddings": 91,
+    "Lisa Kudrow": {
+      "total_embeddings": 207,
+      "original_embeddings": 69,
+      "augmented_embeddings": 138,
       "angles": [
-        "frontal",
-        "45_degree"
-      ],
-      "avg_confidence": 0.6406199536365442,
-      "avg_inference_time": 7117.425531914893
-    },
-    "chris_evans": {
-      "total_embeddings": 135,
-      "original_embeddings": 47,
-      "augmented_embeddings": 88,
-      "angles": [
-        "frontal",
-        "45_degree"
-      ],
-      "avg_confidence": 0.5760588633800674,
-      "avg_inference_time": 7619.04255319149
-    },
-    "mark_ruffalo": {
-      "total_embeddings": 187,
-      "original_embeddings": 64,
-      "augmented_embeddings": 123,
-      "angles": [
+        "45_degree",
         "30_degree",
-        "frontal",
-        "45_degree"
+        "frontal"
       ],
-      "avg_confidence": 0.6826877860302711,
-      "avg_inference_time": 8676.265625
+      "avg_confidence": 0.7799011505732177,
+      "avg_inference_time": 5909.942028985507
+    },
+    "Natalie Portman": {
+      "total_embeddings": 302,
+      "original_embeddings": 101,
+      "augmented_embeddings": 201,
+      "angles": [
+        "45_degree",
+        "30_degree",
+        "frontal"
+      ],
+      "avg_confidence": 0.8522003638096427,
+      "avg_inference_time": 4939.39603960396
+    },
+    "Alia Bhatt": {
+      "total_embeddings": 237,
+      "original_embeddings": 79,
+      "augmented_embeddings": 158,
+      "angles": [
+        "45_degree",
+        "30_degree",
+        "frontal"
+      ],
+      "avg_confidence": 0.7993737261502214,
+      "avg_inference_time": 4913.822784810127
+    },
+    "Charlize Theron": {
+      "total_embeddings": 228,
+      "original_embeddings": 76,
+      "augmented_embeddings": 152,
+      "angles": [
+        "45_degree",
+        "30_degree",
+        "frontal"
+      ],
+      "avg_confidence": 0.8181679391449277,
+      "avg_inference_time": 5732.4473684210525
+    },
+    "Zac Efron": {
+      "total_embeddings": 273,
+      "original_embeddings": 91,
+      "augmented_embeddings": 182,
+      "angles": [
+        "45_degree",
+        "30_degree",
+        "frontal"
+      ],
+      "avg_confidence": 0.847366406911034,
+      "avg_inference_time": 5795.725274725275
+    },
+    "Amitabh Bachchan": {
+      "total_embeddings": 219,
+      "original_embeddings": 73,
+      "augmented_embeddings": 146,
+      "angles": [
+        "45_degree",
+        "30_degree",
+        "frontal"
+      ],
+      "avg_confidence": 0.729202857791007,
+      "avg_inference_time": 5803.520547945205
+    },
+    "Margot Robbie": {
+      "total_embeddings": 210,
+      "original_embeddings": 70,
+      "augmented_embeddings": 140,
+      "angles": [
+        "45_degree",
+        "30_degree",
+        "frontal"
+      ],
+      "avg_confidence": 0.832306403001628,
+      "avg_inference_time": 5604.9
+    },
+    "Elizabeth Olsen": {
+      "total_embeddings": 210,
+      "original_embeddings": 70,
+      "augmented_embeddings": 140,
+      "angles": [
+        "45_degree",
+        "30_degree",
+        "frontal"
+      ],
+      "avg_confidence": 0.8523140642156092,
+      "avg_inference_time": 5494.671428571429
+    },
+    "Jessica Alba": {
+      "total_embeddings": 324,
+      "original_embeddings": 108,
+      "augmented_embeddings": 216,
+      "angles": [
+        "45_degree",
+        "30_degree",
+        "frontal"
+      ],
+      "avg_confidence": 0.8464658451792118,
+      "avg_inference_time": 5517.666666666667
+    },
+    "Roger Federer": {
+      "total_embeddings": 227,
+      "original_embeddings": 76,
+      "augmented_embeddings": 151,
+      "angles": [
+        "45_degree",
+        "30_degree",
+        "frontal"
+      ],
+      "avg_confidence": 0.7388317997552969,
+      "avg_inference_time": 7353.434210526316
+    },
+    "Anushka Sharma": {
+      "total_embeddings": 204,
+      "original_embeddings": 68,
+      "augmented_embeddings": 136,
+      "angles": [
+        "45_degree",
+        "30_degree",
+        "frontal"
+      ],
+      "avg_confidence": 0.8103059695449991,
+      "avg_inference_time": 5534.794117647059
+    },
+    "Marmik": {
+      "total_embeddings": 41,
+      "original_embeddings": 14,
+      "augmented_embeddings": 27,
+      "angles": [
+        "frontal"
+      ],
+      "avg_confidence": 0.6930187256180448,
+      "avg_inference_time": 5636.642857142857
+    },
+    "Camila Cabello": {
+      "total_embeddings": 252,
+      "original_embeddings": 84,
+      "augmented_embeddings": 168,
+      "angles": [
+        "45_degree",
+        "30_degree",
+        "frontal"
+      ],
+      "avg_confidence": 0.7677294033644225,
+      "avg_inference_time": 5561.416666666667
+    },
+    "Hugh Jackman": {
+      "total_embeddings": 330,
+      "original_embeddings": 111,
+      "augmented_embeddings": 219,
+      "angles": [
+        "45_degree",
+        "30_degree",
+        "frontal"
+      ],
+      "avg_confidence": 0.8038179804010729,
+      "avg_inference_time": 5561.396396396396
+    },
+    "Robert Downey Jr": {
+      "total_embeddings": 339,
+      "original_embeddings": 113,
+      "augmented_embeddings": 226,
+      "angles": [
+        "45_degree",
+        "30_degree",
+        "frontal"
+      ],
+      "avg_confidence": 0.7745661631929653,
+      "avg_inference_time": 5577.513274336283
+    },
+    "Priyanka Chopra": {
+      "total_embeddings": 300,
+      "original_embeddings": 100,
+      "augmented_embeddings": 200,
+      "angles": [
+        "45_degree",
+        "30_degree",
+        "frontal"
+      ],
+      "avg_confidence": 0.8391080606618395,
+      "avg_inference_time": 5559.26
     }
   }
 }

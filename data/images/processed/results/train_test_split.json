@@ -1,68 +1,276 @@
 {
-  "timestamp": 1754066211.970921,
+  "timestamp": 1754848990.3601062,
   "train_ratio": 0.8,
   "split_details": {
-    "scarlett_johansson": {
-      "total_samples": 158,
-      "train_samples": 126,
-      "test_samples": 32,
-      "train_ratio_actual": 0.7974683544303798
+    "Henry Cavill": {
+      "total_samples": 312,
+      "train_samples": 249,
+      "test_samples": 63,
+      "train_ratio_actual": 0.7980769230769231
     },
-    "chris_hemsworth": {
-      "total_samples": 153,
-      "train_samples": 122,
-      "test_samples": 31,
-      "train_ratio_actual": 0.7973856209150327
+    "Kashyap": {
+      "total_samples": 36,
+      "train_samples": 28,
+      "test_samples": 8,
+      "train_ratio_actual": 0.7777777777777778
     },
-    "robert_downey": {
-      "total_samples": 138,
-      "train_samples": 110,
-      "test_samples": 28,
-      "train_ratio_actual": 0.7971014492753623
+    "Virat_Kohli": {
+      "total_samples": 144,
+      "train_samples": 115,
+      "test_samples": 29,
+      "train_ratio_actual": 0.7986111111111112
     },
-    "chris_evans": {
-      "total_samples": 135,
-      "train_samples": 108,
-      "test_samples": 27,
+    "Alexandra Daddario": {
+      "total_samples": 275,
+      "train_samples": 220,
+      "test_samples": 55,
       "train_ratio_actual": 0.8
     },
-    "mark_ruffalo": {
-      "total_samples": 187,
-      "train_samples": 149,
-      "test_samples": 38,
-      "train_ratio_actual": 0.7967914438502673
+    "Akshay Kumar": {
+      "total_samples": 150,
+      "train_samples": 120,
+      "test_samples": 30,
+      "train_ratio_actual": 0.8
+    },
+    "Courtney Cox": {
+      "total_samples": 240,
+      "train_samples": 192,
+      "test_samples": 48,
+      "train_ratio_actual": 0.8
+    },
+    "Claire Holt": {
+      "total_samples": 284,
+      "train_samples": 227,
+      "test_samples": 57,
+      "train_ratio_actual": 0.7992957746478874
+    },
+    "Ellen Degeneres": {
+      "total_samples": 215,
+      "train_samples": 172,
+      "test_samples": 43,
+      "train_ratio_actual": 0.8
+    },
+    "Andy Samberg": {
+      "total_samples": 275,
+      "train_samples": 220,
+      "test_samples": 55,
+      "train_ratio_actual": 0.8
+    },
+    "Dwayne Johnson": {
+      "total_samples": 183,
+      "train_samples": 146,
+      "test_samples": 37,
+      "train_ratio_actual": 0.7978142076502732
+    },
+    "Vijay Deverakonda": {
+      "total_samples": 345,
+      "train_samples": 276,
+      "test_samples": 69,
+      "train_ratio_actual": 0.8
+    },
+    "Brad Pitt": {
+      "total_samples": 357,
+      "train_samples": 285,
+      "test_samples": 72,
+      "train_ratio_actual": 0.7983193277310925
+    },
+    "Billie Eilish": {
+      "total_samples": 284,
+      "train_samples": 227,
+      "test_samples": 57,
+      "train_ratio_actual": 0.7992957746478874
+    },
+    "Tom Cruise": {
+      "total_samples": 171,
+      "train_samples": 136,
+      "test_samples": 35,
+      "train_ratio_actual": 0.7953216374269005
+    },
+    "Hrithik Roshan": {
+      "total_samples": 300,
+      "train_samples": 240,
+      "test_samples": 60,
+      "train_ratio_actual": 0.8
+    },
+    "Lisa Kudrow": {
+      "total_samples": 207,
+      "train_samples": 165,
+      "test_samples": 42,
+      "train_ratio_actual": 0.7971014492753623
+    },
+    "Natalie Portman": {
+      "total_samples": 302,
+      "train_samples": 241,
+      "test_samples": 61,
+      "train_ratio_actual": 0.7980132450331126
+    },
+    "Alia Bhatt": {
+      "total_samples": 237,
+      "train_samples": 189,
+      "test_samples": 48,
+      "train_ratio_actual": 0.7974683544303798
+    },
+    "Charlize Theron": {
+      "total_samples": 228,
+      "train_samples": 182,
+      "test_samples": 46,
+      "train_ratio_actual": 0.7982456140350878
+    },
+    "Zac Efron": {
+      "total_samples": 273,
+      "train_samples": 218,
+      "test_samples": 55,
+      "train_ratio_actual": 0.7985347985347986
+    },
+    "Amitabh Bachchan": {
+      "total_samples": 219,
+      "train_samples": 175,
+      "test_samples": 44,
+      "train_ratio_actual": 0.7990867579908676
+    },
+    "Margot Robbie": {
+      "total_samples": 210,
+      "train_samples": 168,
+      "test_samples": 42,
+      "train_ratio_actual": 0.8
+    },
+    "Elizabeth Olsen": {
+      "total_samples": 210,
+      "train_samples": 168,
+      "test_samples": 42,
+      "train_ratio_actual": 0.8
+    },
+    "Jessica Alba": {
+      "total_samples": 324,
+      "train_samples": 259,
+      "test_samples": 65,
+      "train_ratio_actual": 0.7993827160493827
+    },
+    "Roger Federer": {
+      "total_samples": 227,
+      "train_samples": 181,
+      "test_samples": 46,
+      "train_ratio_actual": 0.7973568281938326
+    },
+    "Anushka Sharma": {
+      "total_samples": 204,
+      "train_samples": 163,
+      "test_samples": 41,
+      "train_ratio_actual": 0.7990196078431373
+    },
+    "Marmik": {
+      "total_samples": 41,
+      "train_samples": 32,
+      "test_samples": 9,
+      "train_ratio_actual": 0.7804878048780488
+    },
+    "Camila Cabello": {
+      "total_samples": 252,
+      "train_samples": 201,
+      "test_samples": 51,
+      "train_ratio_actual": 0.7976190476190477
+    },
+    "Hugh Jackman": {
+      "total_samples": 330,
+      "train_samples": 264,
+      "test_samples": 66,
+      "train_ratio_actual": 0.8
+    },
+    "Robert Downey Jr": {
+      "total_samples": 339,
+      "train_samples": 271,
+      "test_samples": 68,
+      "train_ratio_actual": 0.799410029498525
+    },
+    "Priyanka Chopra": {
+      "total_samples": 300,
+      "train_samples": 240,
+      "test_samples": 60,
+      "train_ratio_actual": 0.8
     }
   },
   "label_mappings": {
     "label_to_idx": {
-      "scarlett_johansson": 0,
-      "chris_hemsworth": 1,
-      "robert_downey": 2,
-      "chris_evans": 3,
-      "mark_ruffalo": 4
+      "Henry Cavill": 0,
+      "Kashyap": 1,
+      "Virat_Kohli": 2,
+      "Alexandra Daddario": 3,
+      "Akshay Kumar": 4,
+      "Courtney Cox": 5,
+      "Claire Holt": 6,
+      "Ellen Degeneres": 7,
+      "Andy Samberg": 8,
+      "Dwayne Johnson": 9,
+      "Vijay Deverakonda": 10,
+      "Brad Pitt": 11,
+      "Billie Eilish": 12,
+      "Tom Cruise": 13,
+      "Hrithik Roshan": 14,
+      "Lisa Kudrow": 15,
+      "Natalie Portman": 16,
+      "Alia Bhatt": 17,
+      "Charlize Theron": 18,
+      "Zac Efron": 19,
+      "Amitabh Bachchan": 20,
+      "Margot Robbie": 21,
+      "Elizabeth Olsen": 22,
+      "Jessica Alba": 23,
+      "Roger Federer": 24,
+      "Anushka Sharma": 25,
+      "Marmik": 26,
+      "Camila Cabello": 27,
+      "Hugh Jackman": 28,
+      "Robert Downey Jr": 29,
+      "Priyanka Chopra": 30
     },
     "idx_to_label": {
-      "0": "scarlett_johansson",
-      "1": "chris_hemsworth",
-      "2": "robert_downey",
-      "3": "chris_evans",
-      "4": "mark_ruffalo"
+      "0": "Henry Cavill",
+      "1": "Kashyap",
+      "2": "Virat_Kohli",
+      "3": "Alexandra Daddario",
+      "4": "Akshay Kumar",
+      "5": "Courtney Cox",
+      "6": "Claire Holt",
+      "7": "Ellen Degeneres",
+      "8": "Andy Samberg",
+      "9": "Dwayne Johnson",
+      "10": "Vijay Deverakonda",
+      "11": "Brad Pitt",
+      "12": "Billie Eilish",
+      "13": "Tom Cruise",
+      "14": "Hrithik Roshan",
+      "15": "Lisa Kudrow",
+      "16": "Natalie Portman",
+      "17": "Alia Bhatt",
+      "18": "Charlize Theron",
+      "19": "Zac Efron",
+      "20": "Amitabh Bachchan",
+      "21": "Margot Robbie",
+      "22": "Elizabeth Olsen",
+      "23": "Jessica Alba",
+      "24": "Roger Federer",
+      "25": "Anushka Sharma",
+      "26": "Marmik",
+      "27": "Camila Cabello",
+      "28": "Hugh Jackman",
+      "29": "Robert Downey Jr",
+      "30": "Priyanka Chopra"
     }
   },
   "shapes": {
     "X_train": [
-      615,
+      5970,
       128
     ],
     "y_train": [
-      615
+      5970
     ],
     "X_test": [
-      156,
+      1504,
       128
     ],
     "y_test": [
-      156
+      1504
     ]
   }
 }

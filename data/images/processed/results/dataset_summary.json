@@ -1,47 +1,250 @@
 {
-  "total_employees": 5,
-  "total_images": 273,
+  "total_employees": 31,
+  "total_images": 2501,
   "employees": {
-    "scarlett_johansson": {
-      "image_count": 54,
+    "Henry Cavill": {
+      "image_count": 104,
       "angles": [
-        "30_degree",
         "frontal",
+        "30_degree",
         "45_degree"
       ]
     },
-    "chris_hemsworth": {
-      "image_count": 52,
+    "Kashyap": {
+      "image_count": 12,
       "angles": [
-        "30_degree",
+        "frontal"
+      ]
+    },
+    "Virat_Kohli": {
+      "image_count": 48,
+      "angles": [
         "frontal",
+        "30_degree",
         "45_degree"
       ]
     },
-    "robert_downey": {
-      "image_count": 51,
+    "Alexandra Daddario": {
+      "image_count": 92,
       "angles": [
-        "30_degree",
         "frontal",
+        "30_degree",
         "45_degree"
       ]
     },
-    "chris_evans": {
+    "Akshay Kumar": {
       "image_count": 50,
       "angles": [
-        "30_degree",
         "frontal",
+        "30_degree",
         "45_degree"
       ]
     },
-    "mark_ruffalo": {
-      "image_count": 66,
+    "Courtney Cox": {
+      "image_count": 80,
       "angles": [
-        "30_degree",
         "frontal",
+        "30_degree",
+        "45_degree"
+      ]
+    },
+    "Claire Holt": {
+      "image_count": 95,
+      "angles": [
+        "frontal",
+        "30_degree",
+        "45_degree"
+      ]
+    },
+    "Ellen Degeneres": {
+      "image_count": 74,
+      "angles": [
+        "frontal",
+        "30_degree",
+        "45_degree"
+      ]
+    },
+    "Andy Samberg": {
+      "image_count": 92,
+      "angles": [
+        "frontal",
+        "30_degree",
+        "45_degree"
+      ]
+    },
+    "Dwayne Johnson": {
+      "image_count": 61,
+      "angles": [
+        "frontal",
+        "30_degree",
+        "45_degree"
+      ]
+    },
+    "Vijay Deverakonda": {
+      "image_count": 115,
+      "angles": [
+        "frontal",
+        "30_degree",
+        "45_degree"
+      ]
+    },
+    "Brad Pitt": {
+      "image_count": 119,
+      "angles": [
+        "frontal",
+        "30_degree",
+        "45_degree"
+      ]
+    },
+    "Billie Eilish": {
+      "image_count": 98,
+      "angles": [
+        "frontal",
+        "30_degree",
+        "45_degree"
+      ]
+    },
+    "Tom Cruise": {
+      "image_count": 57,
+      "angles": [
+        "frontal",
+        "30_degree"
+      ]
+    },
+    "Hrithik Roshan": {
+      "image_count": 100,
+      "angles": [
+        "frontal",
+        "30_degree",
+        "45_degree"
+      ]
+    },
+    "Lisa Kudrow": {
+      "image_count": 69,
+      "angles": [
+        "frontal",
+        "30_degree",
+        "45_degree"
+      ]
+    },
+    "Natalie Portman": {
+      "image_count": 101,
+      "angles": [
+        "frontal",
+        "30_degree",
+        "45_degree"
+      ]
+    },
+    "Alia Bhatt": {
+      "image_count": 79,
+      "angles": [
+        "frontal",
+        "30_degree",
+        "45_degree"
+      ]
+    },
+    "Charlize Theron": {
+      "image_count": 76,
+      "angles": [
+        "frontal",
+        "30_degree",
+        "45_degree"
+      ]
+    },
+    "Zac Efron": {
+      "image_count": 91,
+      "angles": [
+        "frontal",
+        "30_degree",
+        "45_degree"
+      ]
+    },
+    "Amitabh Bachchan": {
+      "image_count": 74,
+      "angles": [
+        "frontal",
+        "30_degree",
+        "45_degree"
+      ]
+    },
+    "Margot Robbie": {
+      "image_count": 70,
+      "angles": [
+        "frontal",
+        "30_degree",
+        "45_degree"
+      ]
+    },
+    "Elizabeth Olsen": {
+      "image_count": 70,
+      "angles": [
+        "frontal",
+        "30_degree",
+        "45_degree"
+      ]
+    },
+    "Jessica Alba": {
+      "image_count": 108,
+      "angles": [
+        "frontal",
+        "30_degree",
+        "45_degree"
+      ]
+    },
+    "Roger Federer": {
+      "image_count": 76,
+      "angles": [
+        "frontal",
+        "30_degree",
+        "45_degree"
+      ]
+    },
+    "Anushka Sharma": {
+      "image_count": 68,
+      "angles": [
+        "frontal",
+        "30_degree",
+        "45_degree"
+      ]
+    },
+    "Marmik": {
+      "image_count": 14,
+      "angles": [
+        "frontal"
+      ]
+    },
+    "Camila Cabello": {
+      "image_count": 84,
+      "angles": [
+        "frontal",
+        "30_degree",
+        "45_degree"
+      ]
+    },
+    "Hugh Jackman": {
+      "image_count": 111,
+      "angles": [
+        "frontal",
+        "30_degree",
+        "45_degree"
+      ]
+    },
+    "Robert Downey Jr": {
+      "image_count": 113,
+      "angles": [
+        "frontal",
+        "30_degree",
+        "45_degree"
+      ]
+    },
+    "Priyanka Chopra": {
+      "image_count": 100,
+      "angles": [
+        "frontal",
+        "30_degree",
         "45_degree"
       ]
     }
   },
-  "timestamp": 1754066211.5189228
+  "timestamp": 1754848989.789488
 }

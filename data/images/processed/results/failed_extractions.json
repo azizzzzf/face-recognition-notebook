@@ -1,60 +1,35 @@
 {
-  "timestamp": 1753433596.9851794,
-  "total_failed": 11,
+  "timestamp": 1754375679.6591885,
+  "total_failed": 6,
   "failures": [
     {
-      "employee": "scarlett_johansson",
-      "image": "scarlett_johansson7.png",
+      "employee": "Ellen Degeneres",
+      "image": "Ellen Degeneres_68.jpg",
       "error": "No face detected with any strategy"
     },
     {
-      "employee": "chris_hemsworth",
-      "image": "chris_hemsworth8.png",
+      "employee": "Ellen Degeneres",
+      "image": "Ellen Degeneres_34.jpg",
       "error": "No face detected with any strategy"
     },
     {
-      "employee": "robert_downey",
-      "image": "robert_downey_jr40.png",
+      "employee": "Billie Eilish",
+      "image": "Billie Eilish_78.jpg",
       "error": "No face detected with any strategy"
     },
     {
-      "employee": "robert_downey",
-      "image": "robert_downey_jr30.png",
+      "employee": "Billie Eilish",
+      "image": "Billie Eilish_34.jpg",
       "error": "No face detected with any strategy"
     },
     {
-      "employee": "robert_downey",
-      "image": "robert_downey_jr32.png",
+      "employee": "Billie Eilish",
+      "image": "Billie Eilish_36.jpg",
       "error": "No face detected with any strategy"
     },
     {
-      "employee": "robert_downey",
-      "image": "robert_downey_jr7.png",
-      "error": "No face detected with any strategy"
-    },
-    {
-      "employee": "chris_evans",
-      "image": "chris_evans30.png",
-      "error": "No face detected with any strategy"
-    },
-    {
-      "employee": "chris_evans",
-      "image": "chris_evans50.png",
-      "error": "No face detected with any strategy"
-    },
-    {
-      "employee": "chris_evans",
-      "image": "chris_evans34.png",
-      "error": "No face detected with any strategy"
-    },
-    {
-      "employee": "mark_ruffalo",
-      "image": "mark_ruffalo20.png",
-      "error": "No face detected with any strategy"
-    },
-    {
-      "employee": "mark_ruffalo",
-      "image": "mark_ruffalo13.png",
+      "employee": "Amitabh Bachchan",
+      "image": "Amitabh Bachchan_3.jpg",
       "error": "No face detected with any strategy"
     }
   ]
