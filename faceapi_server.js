@@ -5,17 +5,14 @@ const canvas = require('canvas');
 const fs = require('fs');
 const path = require('path');
 
-// Monkey patch for face-api.js to work with canvas
 const { Canvas, Image, ImageData } = canvas;
 faceapi.env.monkeyPatch({ Canvas, Image, ImageData });
 
 const app = express();
 
-// Enhanced middleware
 app.use(express.json({ limit: '50mb' }));
 app.use(express.urlencoded({ extended: true, limit: '50mb' }));
 
-// CORS middleware for cross-origin requests
 app.use((req, res, next) => {
     res.header('Access-Control-Allow-Origin', '*');
     res.header('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE, OPTIONS');
@@ -28,14 +25,12 @@ app.use((req, res, next) => {
     }
 });
 
-// Logging middleware
 app.use((req, res, next) => {
     const timestamp = new Date().toISOString();
     console.log(`${timestamp} - ${req.method} ${req.path}`);
     next();
 });
 
-// Load models
 const MODEL_URL = './models';
 let modelsLoaded = false;
 let loadingProgress = {};
@@ -45,7 +40,6 @@ async function loadModels() {
         console.log('\n Loading face-api.js models...');
         const startTime = Date.now();
 
-        // Define all required models
         const modelLoaders = [
             { name: 'TinyFaceDetector', loader: () => faceapi.nets.tinyFaceDetector.loadFromDisk(MODEL_URL) },
             { name: 'FaceLandmark68Net', loader: () => faceapi.nets.faceLandmark68Net.loadFromDisk(MODEL_URL) },
@@ -55,7 +49,6 @@ async function loadModels() {
             { name: 'SsdMobilenetv1', loader: () => faceapi.nets.ssdMobilenetv1.loadFromDisk(MODEL_URL) }
         ];
 
-        // Load models with progress tracking
         for (const model of modelLoaders) {
             try {
                 console.log(`  Loading ${model.name}...`);
@@ -80,7 +73,6 @@ async function loadModels() {
     }
 }
 
-// Enhanced health check endpoint
 app.get('/health', (req, res) => {
     const memUsage = process.memoryUsage();
     const health = {
@@ -100,7 +92,6 @@ app.get('/health', (req, res) => {
     res.json(health);
 });
 
-// Model status endpoint
 app.get('/models', (req, res) => {
     res.json({
         modelsLoaded: modelsLoaded,
@@ -109,7 +100,6 @@ app.get('/models', (req, res) => {
     });
 });
 
-// Enhanced face detection with multiple strategies
 app.post('/extract_embedding', async (req, res) => {
     if (!modelsLoaded) {
         return res.status(503).json({ 
@@ -131,7 +121,6 @@ app.post('/extract_embedding', async (req, res) => {
             });
         }
 
-        // Load image from base64
         let img;
         try {
             const buffer = Buffer.from(image, 'base64');
@@ -143,7 +132,6 @@ app.post('/extract_embedding', async (req, res) => {
             });
         }
 
-        // Multiple detection strategies for better success rate
         const detectionStrategies = [
             {
                 name: 'TinyFaceDetector_High',
@@ -177,7 +165,6 @@ app.post('/extract_embedding', async (req, res) => {
         let detection = null;
         let usedStrategy = null;
 
-        // Try each strategy until one succeeds
         for (const strategy of detectionStrategies) {
             try {
                 const detectionStartTime = Date.now();
@@ -200,7 +187,6 @@ app.post('/extract_embedding', async (req, res) => {
         const totalTime = Date.now() - startTime;
 
         if (detection && detection.descriptor) {
-            // Successful detection
             const response = {
                 success: true,
                 embedding: Array.from(detection.descriptor),
@@ -219,7 +205,6 @@ app.post('/extract_embedding', async (req, res) => {
             console.log(` Embedding extracted successfully (${totalTime}ms)`);
             res.json(response);
         } else {
-            // Failed detection
             const response = {
                 success: false,
                 error: 'No face detected with any strategy',
@@ -240,7 +225,6 @@ app.post('/extract_embedding', async (req, res) => {
     }
 });
 
-// Batch processing endpoint with progress tracking
 app.post('/batch_extract', async (req, res) => {
     if (!modelsLoaded) {
         return res.status(503).json({ 
@@ -300,7 +284,6 @@ app.post('/batch_extract', async (req, res) => {
                 });
             }
 
-            // Progress logging
             if ((i + 1) % 10 === 0) {
                 console.log(` Processed ${i + 1}/${images.length} images`);
             }
@@ -327,7 +310,6 @@ app.post('/batch_extract', async (req, res) => {
     }
 });
 
-// Statistics endpoint
 app.get('/stats', (req, res) => {
     const stats = {
         modelsLoaded: modelsLoaded,
@@ -339,7 +321,6 @@ app.get('/stats', (req, res) => {
     res.json(stats);
 });
 
-// Error handling middleware
 app.use((error, req, res, next) => {
     console.error(' Unhandled error:', error);
     res.status(500).json({ 
@@ -348,7 +329,6 @@ app.use((error, req, res, next) => {
     });
 });
 
-// 404 handler
 app.use('*', (req, res) => {
     res.status(404).json({ 
         error: 'Endpoint not found',
@@ -356,10 +336,8 @@ app.use('*', (req, res) => {
     });
 });
 
-// Server configuration
 const PORT = process.env.PORT || 5000;
 
-// Graceful shutdown handling
 process.on('SIGINT', () => {
     console.log('\n Received SIGINT, shutting down gracefully...');
     process.exit(0);
@@ -370,7 +348,6 @@ process.on('SIGTERM', () => {
     process.exit(0);
 });
 
-// Start server
 console.log(' Starting Face-api.js server...');
 console.log(` Port: ${PORT}`);
 console.log(` Models path: ${MODEL_URL}`);

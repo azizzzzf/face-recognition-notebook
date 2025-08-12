@@ -36,29 +36,3 @@ dist/
 # Node.js
 node_modules/
 
-# Images and data
-*.jpg
-*.jpeg
-*.png
-*.bmp
-*.gif
-*.csv
-*.tsv
-
-# Facial recognition models
-models/
-*.h5
-*.pb
-*.pt
-*.ckpt
-
-# Others
-*.sqlite3
-*.db
-
-# Dataset: allow tracking files under data/ (overrides global image/data ignores)
-!data/**
-
-# But ignore Windows Zone.Identifier ADS artifacts copied from Windows
-data/**/*:Zone.Identifier
-*.sqlite
